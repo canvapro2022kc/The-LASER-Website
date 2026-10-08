@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The LASER Online</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- STICKY NAVBAR -->
+  <header>
+    <div class="header-inner">
+      <div class="logo-container">
+        <a href="#">
+          <img src="images/VARIANT1red - plain.png" class="site-logo" alt="The LASER Logo">
+        </a>
+      </div>
+      
+      <nav>
+        <a href="#" class="btn-nav">HOME</a>
+        
+        <div class="menu-dropdown-container">
+          <button class="btn-nav" id="menuBtn">MENU</button>
+
+          <div class="dropdown-panel" id="dropdownPanel">
+            <div class="dropdown-grid">
+              <a href="analaser.html" class="dropdown-item">AnaLASER</a>
+              <a href="telaserye.html" class="dropdown-item">TeLASERye</a>
+              <a href="editorial.html" class="dropdown-item">Editorial</a>
+              <!-- <a href="sports.html" class="dropdown-item">Sports</a> -->
+              <a href="broadcast.html" class="dropdown-item">Broadcast</a>
+              <a href="editions.html" class="dropdown-item">Editions</a>
+              <a href="advisories.html" class="dropdown-item">Advisories</a>
+              <a href="literary.html" class="dropdown-item">Literary</a>
+              <a href="editorialboard.html" class="dropdown-item">Editorial Board</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="contact.html" class="btn-nav">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- HERO SECTION -->
+    <section class="hero-banner">
+      <div class="hero-text">
+        <h1>TRUTH<br>STRIKES IN A<br>LIGHTSPEED</h1>
+      </div>
+      <div class="hero-video">
+        <video src="mp4/The LASER ONLINE no bg final.mov" autoplay muted loop></video>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- FEATURED EVENTS (CAROUSEL) -->
+    <section class="featured-article">
+      <div class="featured-info">
+        <h2>PUBLICATION EVENTS</h2>
+        <p id="eventCaption">Highlighting campus activities, university forums, and student body gatherings.</p>
+        <span class="date-badge" id="eventDate">CLICK PHOTO TO VIEW POST</span>
+      </div>
+      
+      <div class="carousel-container">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="slide active">
+            <a href="https://www.facebook.com/share/p/1cQZc9GAZX/" target="_blank" rel="noopener noreferrer" class="preview-photo clickable-slide">
+              <img src="images/last rhepc.jpg" alt="Event Photo 1">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="https://www.facebook.com/share/p/1B6XiKNBEy/" target="_blank" rel="noopener noreferrer" class="preview-photo clickable-slide">
+              <img src="images/tugue.jpg" alt="Event Photo 2">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="https://www.facebook.com/share/p/1LPmxyBDC2/" target="_blank" rel="noopener noreferrer" class="preview-photo clickable-slide">
+              <img src="images/rhepc 2024.jpg" alt="Event Photo 3">
+            </a>
+          </div>
+          <div class="slide">
+            <a href="https://www.facebook.com/share/p/1RdhpyHsYe/" target="_blank" rel="noopener noreferrer" class="preview-photo clickable-slide">
+              <img src="images/rhepc 2025.png" alt="Event Photo 4">
+            </a>
+          </div>
+        </div>
+
+        <button class="carousel-btn prev-btn" id="prevBtn">&#10094;</button>
+        <button class="carousel-btn next-btn" id="nextBtn">&#10095;</button>
+
+        <div class="carousel-dots" id="carouselDots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+          <span class="dot" data-index="3"></span>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- THREE COLUMN HIGHLIGHTS (SQUARE BOXES) -->
+<section class="highlights-grid">
+  <a href="recent.html" class="highlight-card">
+    <h3>RECENT</h3>
+    <div class="highlight-box">
+      <img src="images/pmle.jpg" alt="recent" class="mail">
+    </div>
+    <p>Latest campus updates and ongoing developments</p>
+  </a>
+
+  <a href="featured.html" class="highlight-card">
+    <h3>FEATURED</h3>
+    <div class="highlight-box">
+      <img src="images/editions.jpg" alt="featured" class="featured"> 
+    </div>
+    <p>Special stories, highlights, and featured releases</p>
+  </a>
+
+  <a href="advisories.html" class="highlight-card">
+    <h3>ADVISORY</h3>
+    <div class="highlight-box">
+      <img src="images/no class teachers' day.jpg" alt="announcement" class="announcement">
+    </div>
+    <p>Important announcements and student reminders</p>
+  </a>
+</section>
+
+    <hr class="divider">
+
+    <!-- RELEASED EDITIONS (CAROUSEL) -->
+    <section class="featured-article">
+      <div class="featured-info">
+        <h2>RELEASED EDITIONS</h2>
+        <p id="editionCaption">Read full volume releases, special publication prints, and digital issue archives.</p>
+        <span class="date-badge" id="editionDate">CLICK PHOTO TO VIEW EDITIONS</span>
+      </div>
+      
+      <div class="carousel-container">
+        <div class="carousel-track" id="editionsTrack">
+
+          <!-- Slide 1 -->
+          <div class="slide active">
+            <a href="editions.html" class="preview-photo clickable-slide">
+              <img src="images/2025-2026 editions.png" alt="Edition 2025-2026">
+            </a>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="slide">
+            <a href="editions.html" class="preview-photo clickable-slide">
+              <img src="images/2024-2025 editions.jpg" alt="Edition 2024-2025">
+            </a>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="slide">
+            <a href="editions.html" class="preview-photo clickable-slide">
+              <img src="images/2023-2024 editions.jpg" alt="Edition 2023-2024">
+            </a>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="slide">
+            <a href="editions.html" class="preview-photo clickable-slide">
+              <img src="images/2022-2023 editions.jpg" alt="Edition 2022-2023">
+            </a>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="slide">
+            <a href="editions.html" class="preview-photo clickable-slide">
+              <img src="images/2021-2022 editions.jpg" alt="Edition 2021-2022">
+            </a>
+          </div>
+
+        </div>
+
+        <button class="carousel-btn prev-btn" id="prevEdBtn">&#10094;</button>
+        <button class="carousel-btn next-btn" id="nextEdBtn">&#10095;</button>
+
+        <div class="carousel-dots" id="editionsDots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TWO-COLUMN CATEGORIES SECTION (NEWS & LITERARY) -->
+    <hr class="divider">
+    <section class="categories-row">
+      
+      <!-- Editorial CAROUSEL SECTION -->
+      <div class="category-column">
+        <h2 class="section-title">EDITORIAL</h2>
+        <div class="category-carousel-wrapper">
+          <div class="carousel-track" id="newsTrack">
+            <!-- Slide 1 -->
+            <div class="slide active">
+              <div class="category-card solo-card">
+                <a href="editorial.html" class="card-top hero-card-top">
+                  <img src="images/editorial 1.jpg" alt="SO, NAkatakas">
+                </a>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="category-card solo-card">
+                <a href="editorial.html" class="card-top hero-card-top">
+                  <img src="images/editorial 2.jpg" alt="DE JA VUlok">
+                </a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="category-card solo-card">
+                <a href="editorial.html" class="card-top hero-card-top">
+                  <img src="images/editorial 3.jpg" alt="Higit sa Laro">
+                </a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="category-card solo-card">
+                <a href="editorial.html" class="card-top hero-card-top">
+                  <img src="images/editorial 4.jpg" alt="ManggagaWALA">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-btn prev-btn" id="prevNewsBtn">&#10094;</button>
+          <button class="carousel-btn next-btn" id="nextNewsBtn">&#10095;</button>
+
+          <div class="carousel-dots dark-dots" id="newsDots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- LITERARY CAROUSEL SECTION -->
+      <div class="category-column">
+        <h2 class="section-title">LITERARY</h2>
+        <div class="category-carousel-wrapper">
+          <div class="carousel-track" id="literaryTrack">
+            <!-- Slide 1 -->
+            <div class="slide active">
+              <div class="category-card solo-card">
+                <a href="literary.html" class="card-top hero-card-top">
+                  <img src="images/literary.jpg" alt="literary">
+                </a>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="category-card solo-card">
+                <a href="literary.html" class="card-top hero-card-top">
+                  <img src="images/literary 2.jpg" alt="literary slide 2">
+                </a>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+              <div class="category-card solo-card">
+                <a href="literary.html" class="card-top hero-card-top">
+                  <img src="images/literary 3.PNG" alt="literary slide 3">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-btn prev-btn" id="prevLitBtn">&#10094;</button>
+          <button class="carousel-btn next-btn" id="nextLitBtn">&#10095;</button>
+
+          <div class="carousel-dots dark-dots" id="literaryDots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div> <!-- FIX 2: CONTAINER DIV CLOSES HERE -->
+
+  <!-- FOOTER SITUATED OUTSIDE CONTAINER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2>The LASER</h2>
+          <p>Group of Publications</p>
+        </div>
+        <div class="footer-links">
+          <a href="#" class="footer-btn">🌐 /OKA.The.LASER</a>
+          <a href="mailto:publications.malvar@g.batstate-u.edu.ph" class="footer-btn">✉️ publications.malvar@g.batstate-u.edu.ph</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>The official student publication of Batangas State University The NEU JPLPC - Malvar</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
